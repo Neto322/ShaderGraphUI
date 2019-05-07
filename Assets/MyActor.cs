@@ -24,7 +24,7 @@ public class MyActor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        render.material.SetFloat("_ColorPower",colorPower);
+        render.material.SetFloat("_ColorPower", sldColorPower.value);
         render.material.SetFloat("_NormalAmount", sldNormalAmount.value);
         render.material.SetFloat("_RimPower", sldRimPower.value);
 
