@@ -203,7 +203,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1717484125}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 5
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -937,7 +937,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 120469981}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 5
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -2010,6 +2010,8 @@ MonoBehaviour:
   sldR: {fileID: 793044642}
   sldG: {fileID: 1939397205}
   sldB: {fileID: 9136116}
+  sldDivide: {fileID: 0}
+  sldDivide2: {fileID: 0}
 --- !u!1 &1673771968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,7 +2703,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 816361565}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 5
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

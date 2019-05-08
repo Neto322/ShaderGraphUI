@@ -20,6 +20,10 @@ public class MyActor : MonoBehaviour
     Slider sldG;
     [SerializeField]
     Slider sldB;
+    [SerializeField]
+    Slider sldDivide;
+    [SerializeField]
+    Slider sldDivide2;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,5 +39,8 @@ public class MyActor : MonoBehaviour
         render.material.SetFloat("_R", sldR.value);
         render.material.SetFloat("_G", sldG.value);
         render.material.SetFloat("_B", sldB.value);
+        render.material.SetFloat("_Divide", sldDivide.value);
+        render.material.SetFloat("_Divide2", sldDivide2.value);
+
     }
 }

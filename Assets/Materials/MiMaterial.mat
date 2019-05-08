@@ -73,9 +73,11 @@ Material:
     - _B: 1
     - _Blend: 0
     - _BumpScale: 1
-    - _ColorPower: 0.13
+    - _ColorPower: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Divide: 1
+    - _Divide2: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _G: 1
